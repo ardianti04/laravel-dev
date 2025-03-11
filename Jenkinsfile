@@ -23,7 +23,7 @@ pipeline {
             }
         }
 
- stage('Test') {
+        stage('Test') {
             steps {
                 script {
                     echo 'Running tests...'
@@ -43,6 +43,6 @@ pipeline {
                     // sh 'docker-compose up -d'
                 }
             }
-        }
-    }
+        }
+    }
 }
